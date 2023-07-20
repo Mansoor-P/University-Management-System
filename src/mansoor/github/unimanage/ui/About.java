@@ -10,8 +10,8 @@ public class About extends JFrame {
         setLocation(400, 150);
         getContentPane().setBackground(Color.WHITE);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/about.jpg"));
-        Image i2 = i1.getImage().getScaledInstance(300, 200, Image.SCALE_DEFAULT);
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/aboutr.jpg"));
+        Image i2 = i1.getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
         image.setBounds(350, 0, 300, 200);
@@ -22,17 +22,17 @@ public class About extends JFrame {
         heading.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(heading);
 
-        JLabel name = new JLabel("Developed By: Code for Interview");
+        JLabel name = new JLabel("Developed By: MANSOOR PATHIKONDA");
         name.setBounds(70, 220, 550, 40);
-        name.setFont(new Font("Tahoma", Font.BOLD, 30));
+        name.setFont(new Font("Tahoma", Font.BOLD, 20));
         add(name);
 
-        JLabel rollno = new JLabel("Roll number: 1533146");
+        JLabel rollno = new JLabel("Roll number: 6012163081");
         rollno.setBounds(70, 280, 550, 40);
         rollno.setFont(new Font("Tahoma", Font.PLAIN, 30));
         add(rollno);
 
-        JLabel contact = new JLabel("Contact: codeforinterview03@gmail.com");
+        JLabel contact = new JLabel("Contact: mansoor@gmail.com");
         contact.setBounds(70, 340, 550, 40);
         contact.setFont(new Font("Tahoma", Font.PLAIN, 20));
         add(contact);
